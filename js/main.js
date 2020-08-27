@@ -1,5 +1,3 @@
-
-
 //Changing customer sliders
 var myslide=1;
 slidedisplay(myslide);
@@ -23,7 +21,6 @@ function slidedisplay(n) {
   
   slides[myslide-1].style.display = "inline";
   console.log(slides[myslide-1])
-  
 }
 var myslide = 0;
 slidedisplay();
@@ -63,11 +60,7 @@ document.getElementById("emailAddress").addEventListener("blur", e => {
   function showMessage(){
     alert("You have successfully subscribed!");
 }
-
-//Slide for fast food, drinks
-
-
-
+//Slide show for fast food, drinks
 var myslide2=1;
 slidedisplay2(myslide2);
 
@@ -75,13 +68,9 @@ function moveSlides(n) {
   slidedisplay2(myslide2 += n);
 }
 
-
-
-
 function present(n) {
   slidedisplay2(myslide2 = n);
 }
-
 
 function slidedisplay2(n) {
   var i;

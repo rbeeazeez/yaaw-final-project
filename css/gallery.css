@@ -207,6 +207,9 @@ html {
     padding-top: 1em;
     padding-bottom: 2em;
 }
+.img-container img{
+    height: 15em;
+}
 
 .img-nav {
     object-fit: cover;
@@ -353,75 +356,14 @@ html {
     .right-container, .left-drink-container, .right-about-container{
         min-width: 100%;
     }
-    .left-container {
-        display: flex;
-        flex-direction: column;
-        background-size: cover;
-        width: 100%;
-    }
-    .fast-food-container{
-        display: flex;
-        flex-direction: column;
-        padding: 0 1em ;
-    }
-    .drink-container {
-        display: flex;
-        flex-direction: column;
-        padding: 0 1em ;
-
-    }
-    .right-drink-container{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin-bottom: 3em;
-    }
-    .img-1, .img-2, .img-3{
-        height: 12em;
-    }
-    .navbar a{
-        padding: 0.5em ;
-        line-height: 1em;
-    }
     .img-container{
-        padding: 3em 0;
-        line-height: 1em;
-    }
-    .about-container{
         display: flex;
         flex-direction: column;
-        box-shadow: none;
     }
-    .about-container:hover{
-        box-shadow: none;
+    @media only screen and (min-width: 600px) {
+        .img-container img{
+            height: 15em;
+        }
     }
-    .subscribe{
-        padding: 2em;
-    }
-    .input-style{
-        margin: 1em;
-    }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-.right-container p .left-container {
-    padding: 0;
-    height: 15em;
-}
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
+    
 }
